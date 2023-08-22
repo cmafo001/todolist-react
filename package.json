@@ -1,12 +1,15 @@
 {
+  "homepage": "https://cmafo001.github.io/todolist-react",
   "name": "todolist-react-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "test": "vitest",
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
