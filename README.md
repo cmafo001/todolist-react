@@ -31,7 +31,7 @@ The Simple ToDo List App is a basic web application developed using React. It al
    
 ## Usage
 
-Open your web browser and navigate to http://localhost:3000 (or the appropriate URL).
+Open your web browser and navigate to http://localhost:3000 (or the URL : https://cmafo001.github.io/todolist-react/).
 Enter a task description, due date, and status in the input fields.
 Click the "Add" button to add the task to the list.
 The task will appear in the table below the input fields.
